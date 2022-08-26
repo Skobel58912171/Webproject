@@ -1,0 +1,64 @@
+<section class="hero">
+  <div class="container hero__container">
+    <div class="hero__description">
+      <h1 class="hero__title">Enjoy Your Favorite Food From Anywhere</h1>
+      <p class="hero__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+        ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+      </p>
+      <button class="hero__btn" type="button">Order Now</button>
+    </div>
+    <div class="hero__slider">
+      <div class="slider__btn btn-left">
+        <svg
+          class="slider__icon"
+          width="40"
+          height="48"
+          aria-label="click left"
+        >
+          <use href="./images/icons.svg#click-left"></use>
+        </svg>
+      </div>
+      <div class="slider__btn btn-right">
+        <svg
+          class="slider__icon"
+          width="40"
+          height="48"
+          aria-label="click right"
+        >
+          <use href="./images/icons.svg#click-right"></use>
+        </svg>
+      </div>
+
+      <div class="swiper">
+        <div class="swiper__img">
+          <picture>
+            <source
+              media="(min-width: 1248px)"
+              srcset="
+                ./images/hero/img-1@1x_lg.webp 1x,
+                ./images/hero/img-1@2x_lg.webp 2x
+              "
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./images/hero/img-1@1x_md.webp 1x,
+                ./images/hero/img-1@2x_md.webp 2x
+              "
+              type="image/webp"
+            />
+            <img
+              src="./images/hero/img-1@1x_lg.webp"
+              width="528"
+              height="528"
+              alt="Салат"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
