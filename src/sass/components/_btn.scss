@@ -19,31 +19,3 @@
     background-color: $secondary-accent;
   }
 }
-
-.header__btn {
-  font-weight: 400;
-  font-size: 14px;
-  padding: 5px 16px;
-}
-
-.offerings__btn {
-  transition: border $transitionDuration $transitionTimFunc;
-  padding: 10px 22px;
-  border: 2px solid $accent-dark;
-  background-color: $backgroundcolor-btn;
-}
-&:hover,
-&:focus {
-  border: 2px solid $secondary-dark;
-}
-
-.footer__btn {
-  transition: background-color $transitionDuration $transitionTimFunc;
-  padding: 10px 22px;
-  border: 0.854167px solid $accent-dark;
-  background-color: $backgroundcolor-btn;
-}
-&:hover,
-&:focus {
-  background-color: $main-color;
-}
