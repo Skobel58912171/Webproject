@@ -1,0 +1,126 @@
+<section class="hero">
+  <div class="container hero__container">
+    <ul class="hero__list">
+      <li class="hero__item">
+        <h1 class="hero__title">Enjoy Your Favorite Food From Anywhere</h1>
+        <p class="hero__text section__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+          ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+        </p>
+        <button class="btn" type="button">Order Now</button>
+      </li>
+
+      <li class="hero__item hero__item-swipe">
+        <div class="swipe">
+          <button button class="swipe__btn-left" type="button">
+            <span>
+              <svg
+                class="slider__icon"
+                width="48"
+                height="40"
+                aria-label="click left"
+              >
+                <use href="./images/icons.svg#click-left"></use>
+              </svg>
+            </span>
+          </button>
+          <button class="swipe__btn-right">
+            <span
+              ><svg
+                class="slider__icon"
+                width="48"
+                height="40"
+                aria-label="click right"
+              >
+                <use href="./images/icons.svg#click-right"></use>
+              </svg>
+            </span>
+          </button>
+          <div class="swipe-wrapper"></div>
+        </div>
+        <div class="swipe__wrapper">
+          <div class="slide">
+            <picture class="image">
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  ./images/hero/img-1@1x_lg.png 1x,
+                  ./images/hero/img-1@2x_lg.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/hero/img-1@1x_md.png 1x,
+                  ./images/hero/img-1@2x_md.png 2x
+                "
+                type="image/png"
+              />
+              <img
+                src="./images/hero/img-1@1x_lg.png"
+                width="528"
+                height="528"
+                alt="Салат 1"
+              />
+            </picture>
+          </div>
+          <!-- <div class="slide">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  ./images/hero/img-2@1x_lg.png 1x,
+                  ./images/hero/img-2@2x_lg.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/hero/img-2@1x_md.png 1x,
+                  ./images/hero/img-2@2x_md.png 2x
+                "
+                type="image/png"
+              />
+              <img
+                src="./images/hero/img-2@1x_lg.png"
+                width="528"
+                height="528"
+                alt="Салат 2"
+              />
+            </picture>
+          </div>
+          <div class="slide">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="
+                  ./images/hero/img-3@1x_lg.png 1x,
+                  ./images/hero/img-3@2x_lg.png 2x
+                "
+                type="image/png"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./images/hero/img-3@1x_md.png 1x,
+                  ./images/hero/img-3@2x_md.png 2x
+                "
+                type="image/png"
+              />
+              <img
+                src="./images/hero/img-3@1x_lg.png"
+                width="528"
+                height="528"
+                alt="Салат 3"
+              />
+            </picture>
+          </div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </li>
+    </ul>
+  </div>
+</section>
