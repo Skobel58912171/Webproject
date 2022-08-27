@@ -3,18 +3,18 @@ $mainFont: 'Roboto', sans-serif;
 
 // Color
 $backgroundcolor: #fefefe;
+$backgroundcolor-btn: #ffffff;
+
 $main-color: #ffe550;
 $accent-color: #bbf330;
 $accent-dark: #7eb101;
 $secondary-accent: #b5ff00;
 $secondary-dark: #597d00;
 $text-color: #2c2c2c;
+
+
 $error: #ff705d;
-$gradient: radial-gradient(
-  50% 50% at 50% 50%,
-  #2f583f 0%,
-  rgba(105, 105, 105, 0) 100%
-);
+
 
 $transitionTimFunc: cubic-bezier(0.4, 0, 0.2, 1);
 $transitionDuration: 250ms;
