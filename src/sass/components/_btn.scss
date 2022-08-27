@@ -1,0 +1,21 @@
+.btn {
+  transition: background-color $transitionDuration $transitionTimFunc;
+
+  border-radius: 30px;
+  padding: 11px 22px;
+  border: 0px;
+
+  color: $text-color;
+  background-color: $accent-color;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+
+  &:hover,
+  &:focus {
+    background-color: $secondary-accent;
+  }
+}
