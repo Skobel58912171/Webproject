@@ -1,7 +1,6 @@
 @import './common';
 // utils
 @import './utils/vars';
-
 // base styles
 @import './base/container';
 @import './base/general';
@@ -16,6 +15,8 @@
 @import './components/hero';
 @import './components/offerings';
 @import './components/favorites';
+@import './components/subscribe';
+@import './components/btn';
 @import './components/customers';
 @import './components/subscribe';
 @import './components/form';

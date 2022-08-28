@@ -1,0 +1,50 @@
+<section class="subscribe" id="subscribe">
+  <div class="subscribe_container container">
+    <div class="subscribe-pic">
+      <picture>
+        <!-- desktop -->
+
+        <source media="(min-width: 1280px)" srcset="
+          ./images/subscribe/banan@1x_lg.png 1x,
+          ./images/subscribe/banan@2x_lg.png 2x
+        " type="image/png" />
+        <!-- tablet -->
+
+        <source media="(min-width: 768px)" srcset="
+          ./images/subscribe/banan@1x_md.png 1x,
+          ./images/subscribe/banan@2x_md.png 2x
+        " type="image/png" />
+        <!-- mobile -->
+
+        <source media="(max-width: 767px)" srcset="
+          ./images/subscribe/banan@1x_sm.png 1x,
+          ./images/subscribe/banan@2x_sm.png 2x
+        " type="image/png" />
+        <img src="./images/subscribe/banan@1x_sm.png" alt="picture banan">
+      </picture>
+    </div>
+
+    <div class="subscriprtion">
+      <h2 class="section__title">Subscribe To Get Special Offers</h2>
+      <p class="subscribtion__text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+        varius enim in eros elementum tristique.
+      </p>
+
+      <form class="subscribtion-form" name="signup_form" autocomplete="off" novalidate>
+        <input class="subscribtion-form__input" type="email" name="email" placeholder="Enter your email"
+          pattern="^(.+)@(\ S+)$" id="subscribtion-form__title" />
+
+        <button class="btn subscribtion-form__btn" type="submit">
+          Subscribe
+        </button>
+        <label class="subscribtion-form__title" for="subscribtion-form__title">
+          <svg class="subscribtion-form__icon" width="12" height="12">
+            <use class="subscribtion-form__error" href="./images/icons.svg#error"></use>
+          </svg>
+          <span class="subscribtion-form__text-error">Not a valid email address (example@email.com)</span>
+        </label>
+      </form>
+    </div>
+  </div>
+</section>
