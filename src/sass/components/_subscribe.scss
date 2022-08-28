@@ -1,4 +1,4 @@
-.subscribe__container {
+.subscribe_container {
   // position: relative;
   // z-index: 100;
   display: flex;
@@ -35,9 +35,9 @@
   margin-bottom: -23px;
 
   @media screen and (min-width: 768px) {
-    text-align: -webkit-right;
     bottom: 92px;
     margin-bottom: -72px;
+    text-align: -webkit-right;
   }
 
   @media screen and (min-width: 1280px) {
