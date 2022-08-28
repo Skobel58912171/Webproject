@@ -5,6 +5,19 @@
 @import './base/container';
 @import './base/general';
 @import './base/reset';
+
+//components
+@import './components/header';
+@import './components/site-nav';
+@import './components/mobile-menu';
+@import './components/logo';
+@import './components/btn';
+@import './components/hero';
+@import './components/offerings';
 @import './components/favorites';
 @import './components/subscribe';
 @import './components/btn';
+@import './components/customers';
+@import './components/subscribe';
+@import './components/form';
+@import './components/footer';
